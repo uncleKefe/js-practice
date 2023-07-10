@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    display: block;
+    
+    color: red;
+    text-align: center;
+}
+
+.switch-btn {
+    font-size: 33px;
+    width: 85px;
+    height: 40px;
+    outline: none;
+    border-radius: 6px;
+    background-color: teal;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: 700px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.press {
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    margin: 12px;
+}
+
+.info {
+    width: 100%;
+    height: 400px;
+    background-color: wheat;
+    margin: 2rem 5rem;
+}
+
+.info input {
+    width: 70%;
+    height: 40px;
+    margin: 8px 20px;
+    
+}
+
+.info label {
+    margin: 5px 20px;
+}
+
+.submit-btn {
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    margin: 5px 50px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.box-container {
+    width: 100%;
+    height: 700px;
+    border: red solid;
+}
+
+.box {
+    width: 45%;
+    height: 500px;
+    border: solid green;
+    margin: 2rem 15rem;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 10%;
+
+}
+.box1 {
+    width: 30%;
+    height: 100px;
+    border: indigo solid;
+    float: left;
+}
+
+.box2 {
+    width: 30%;
+    height: 100px;
+    border: yellow solid;
+    float: right;
+}
